@@ -5,12 +5,11 @@
 package graphics
 
 import (
-	"code.google.com/p/graphics-go/graphics/graphicstest"
+	"github.com/Assisting/graphics-go/graphics/graphicstest"
 	"image"
 	"math"
 	"testing"
-
-	_ "image/png"
+	"image/png"
 )
 
 var rotateOneColorTests = []transformOneColorTest{

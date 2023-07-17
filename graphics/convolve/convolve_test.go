@@ -5,12 +5,11 @@
 package convolve
 
 import (
-	"code.google.com/p/graphics-go/graphics/graphicstest"
+	"github.com/Assisting/graphics-go/graphics/graphicstest"
 	"image"
 	"reflect"
 	"testing"
-
-	_ "image/png"
+	"image/png"
 )
 
 func TestSeparableWeights(t *testing.T) {
